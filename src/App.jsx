@@ -34,7 +34,7 @@ import CrewManagement from './views/CrewManagement';
 import AnalyticsDashboard from './views/AnalyticsDashboard';
 import FlightMap from './views/FlightMap';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://skycopilot-backend.vercel.app';
 
 // --- HELPER COMPONENTS ---
 
