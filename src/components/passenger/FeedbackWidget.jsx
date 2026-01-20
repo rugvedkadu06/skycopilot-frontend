@@ -19,7 +19,7 @@ const FeedbackWidget = ({ flightId }) => {
     const handleSubmit = async () => {
         if (!rating && !emoji) return;
         try {
-            await axios.post('http://localhost:8000/passenger/feedback', {
+            await axios.post('https://skycopilot-backend.vercel.app/passenger/feedback', {
                 flight_id: flightId,
                 rating: rating || (emoji ? emoji.val : 3),
                 comment: comment
