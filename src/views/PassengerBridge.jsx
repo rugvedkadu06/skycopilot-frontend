@@ -15,7 +15,7 @@ import RightsCard from '../components/passenger/RightsCard';
 import FeedbackWidget from '../components/passenger/FeedbackWidget';
 import PassengerOptions from '../components/passenger/PassengerOptions';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://skycopilot-backend.vercel.app';
 
 // Translation Dictionary
 const DICT = {
