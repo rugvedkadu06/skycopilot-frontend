@@ -6,7 +6,7 @@ import {
     BarChart, Bar, Legend
 } from 'recharts';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://skycopilot-backend.vercel.app';
 
 export default function PredictiveDashboard() {
     const [fatigueData, setFatigueData] = useState(null);
