@@ -10,7 +10,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://skycopilot-backend.vercel.app';
 
 const AnalyticsDashboard = () => {
     const [overview, setOverview] = useState(null);
